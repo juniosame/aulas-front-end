@@ -1,19 +1,20 @@
-<h1>🚧 EM CONSTRUÇÃO 🚧</h1>
+# 🚧 EM CONSTRUÇÃO 🚧
 
-<h2>📒 Atividades de estudos de Front-End </h2>
+## 🧪 Atividades de estudos de Front-End 
+---
 
-<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code> HTML </h3>
+### ![HTML](https://cdn-icons-png.flaticon.com/32/5968/5968267.png) HTML
 
 Linguagem para estrututação de conteúdo em páginas web.
 
-<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code> CSS </h3>
+### ![CSS](https://cdn-icons-png.flaticon.com/32/5968/5968242.png) CSS
+
 
 Linguagem para estilização de páginas web.
 
 Css é uma sigla que significa "Folhas de Estilo em Cascata", e possui 3 formas de implementação.
 
-<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code> JavaScript </h3>
-
+### ![JavaScript](https://cdn-icons-png.flaticon.com/32/5968/5968292.png) JavaScript
 
 
 
