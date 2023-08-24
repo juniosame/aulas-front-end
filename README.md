@@ -2,7 +2,7 @@
 
 # 🧪 Atividades de estudos de Front-End
 
-## ![d](https://cdn-icons-png.flaticon.com/16/1051/1051277.png) HTML
+## ![d](https://cdn-icons-png.flaticon.com/32/1051/1051277.png) HTML
 
 Linguagem para estrututação de conteúdo em páginas web.
 
