@@ -1,18 +1,22 @@
-# 🚧 EM CONSTRUÇÃO 🚧
+<h1>🚧 EM CONSTRUÇÃO 🚧</h1>
 
-## 🧪 Atividades de estudos de Front-End
+<h2>📒 Atividades de estudos de Front-End </h2>
 
-### ![HTML](https://cdn-icons-png.flaticon.com/32/9496/9496578.png) HTML
+<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code> HTML </h3>
 
 Linguagem para estrututação de conteúdo em páginas web.
 
-### ![CSS](https://cdn-icons-png.flaticon.com/32/9496/9496599.png) CSS
+<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code> CSS </h3>
 
 Linguagem para estilização de páginas web.
 
 Css é uma sigla que significa "Folhas de Estilo em Cascata", e possui 3 formas de implementação.
 
-### ![CSS](https://cdn-icons-png.flaticon.com/32/9034/9034364.png) JavaScript
+<h3><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code> JavaScript </h3>
+
+
+
+
 
 ### 📎 INLINE
 
@@ -42,3 +46,5 @@ Classes podem ser reutilizadas na mesma página e combinadas com outras classes.
 
 Regras criadas com seletor do tipo ID, são mais versáteis, ou seja, você desenvolvedor(a) determina onde aplicar o id e sua formatação. **ATENÇÃO** você não pode reaproveitar IDs, ou seja, seletor ID deve ser usado SOMENTE PARA UM ELEMENTO por página.
 
+
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
