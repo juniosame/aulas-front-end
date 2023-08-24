@@ -39,3 +39,5 @@ Classes podem ser reutilizadas na mesma página e combinadas com outras classes.
 #### 📎 ID (Identificador)
 
 Regras criadas com seletor do tipo ID, são mais versáteis, ou seja, você desenvolvedor(a) determina onde aplicar o id e sua formatação. **ATENÇÃO** você não pode reaproveitar IDs, ou seja, seletor ID deve ser usado SOMENTE PARA UM ELEMENTO por página.
+
+![d](https://cdn-icons-png.flaticon.com/16/1051/1051277.png)
