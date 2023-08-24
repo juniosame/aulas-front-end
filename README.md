@@ -2,7 +2,7 @@
 
 # 🧪 Atividades de estudos de Front-End
 
-## ![HTML](https://cdn-icons-png.flaticon.com/16/1051/1051277.png) HTML
+## ![HTML](https://cdn-icons-png.flaticon.com/32/9496/9496578.png) HTML
 
 Linguagem para estrututação de conteúdo em páginas web.
 
@@ -11,6 +11,8 @@ Linguagem para estrututação de conteúdo em páginas web.
 Linguagem para estilização de páginas web.
 
 Css é uma sigla que significa "Folhas de Estilo em Cascata", e possui 3 formas de implementação.
+
+## ![CSS](https://cdn-icons-png.flaticon.com/32/9034/9034364.png) JavaScript
 
 ### 📎 INLINE
 
