@@ -1,6 +1,6 @@
-🚧 **EM CONSTRUÇÃO** 🚧
+# 🚧 EM CONSTRUÇÃO 🚧
 
-# 🧪 Atividades de estudos de Front-End
+## 🧪 Atividades de estudos de Front-End
 
 ### ![HTML](https://cdn-icons-png.flaticon.com/32/9496/9496578.png) HTML
 
@@ -12,7 +12,7 @@ Linguagem para estilização de páginas web.
 
 Css é uma sigla que significa "Folhas de Estilo em Cascata", e possui 3 formas de implementação.
 
-## ![CSS](https://cdn-icons-png.flaticon.com/32/9034/9034364.png) JavaScript
+### ![CSS](https://cdn-icons-png.flaticon.com/32/9034/9034364.png) JavaScript
 
 ### 📎 INLINE
 
