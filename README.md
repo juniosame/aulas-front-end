@@ -6,7 +6,7 @@
 
 Linguagem para estrututação de conteúdo em páginas web.
 
-## ![CSS](https://cdn-icons-png.flaticon.com/16/5968/5968242.png) 📖 CSS
+## ![CSS](https://cdn-icons-png.flaticon.com/16/5968/5968242.png) CSS
 
 Linguagem para estilização de páginas web.
 
