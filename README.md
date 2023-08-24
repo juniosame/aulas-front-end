@@ -2,11 +2,11 @@
 
 # 🧪 Atividades de estudos de Front-End
 
-## ![HTML](https://cdn-icons-png.flaticon.com/32/9496/9496578.png) HTML
+### ![HTML](https://cdn-icons-png.flaticon.com/32/9496/9496578.png) HTML
 
 Linguagem para estrututação de conteúdo em páginas web.
 
-## ![CSS](https://cdn-icons-png.flaticon.com/32/9496/9496599.png) CSS
+### ![CSS](https://cdn-icons-png.flaticon.com/32/9496/9496599.png) CSS
 
 Linguagem para estilização de páginas web.
 
