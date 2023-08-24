@@ -1,12 +1,12 @@
 🚧 **EM CONSTRUÇÃO** 🚧
 
-# 📖 Atividades de estudos de Front-End
+# 🧪 Atividades de estudos de Front-End
 
-## HTML
+## 📖 HTML
 
 Linguagem para estrututação de conteúdo em páginas web.
 
-## CSS
+## 📖 CSS
 
 Linguagem para estilização de páginas web.
 
