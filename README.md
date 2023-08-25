@@ -39,15 +39,15 @@ As regras vão valer para todas as Tags/Elementos desta página.
 ---
 
 
-### ![Interna](https://cdn-icons-png.flaticon.com/16/2377/2377846.png) SOBRE SELETORES
+### ![Seletores](https://cdn-icons-png.flaticon.com/16/2377/2377846.png) SOBRE SELETORES ![Seletores2](https://cdn-icons-png.flaticon.com/16/2377/2377846.png)
 
-#### ![Interna](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) TAG
+#### ![TAG](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) **TAG**
 
 
 Regras criadas com seletor do tipo tag, são mais generalistas, ou seja, a formatação será aplicadas à todas as tags que "casem" com o seletor.
 
 
-#### ![Interna](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) CLASS
+#### ![CLASS](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) **CLASS**
 
 
 Regras criadas com seletor do tipo classe, são mais versáteis, ou seja, você desenvolvedor(a) determina onde aplicar a classe e sua formatação.
@@ -55,7 +55,9 @@ Regras criadas com seletor do tipo classe, são mais versáteis, ou seja, você 
 Classes podem ser reutilizadas na mesma página e combinadas com outras classes.
 
 
-#### ![Interna](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) ID
+#### ![ID](https://cdn-icons-png.flaticon.com/16/4227/4227729.png) **ID**
 
 
 Regras criadas com seletor do tipo ID, são mais versáteis, ou seja, você desenvolvedor(a) determina onde aplicar o id e sua formatação. **ATENÇÃO** você não pode reaproveitar IDs, ou seja, seletor ID deve ser usado SOMENTE PARA UM ELEMENTO por página.
+
+---
