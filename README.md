@@ -5,16 +5,16 @@
 
 ### ![HTML](https://cdn-icons-png.flaticon.com/32/5968/5968267.png) HTML
 
->Linguagem para estrututação de conteúdo em páginas web.
+Linguagem para estrututação de conteúdo em páginas web.
 
 ---
 
 ### ![CSS](https://cdn-icons-png.flaticon.com/32/5968/5968242.png) CSS
 
 
->Linguagem para estilização de páginas web.
->
->Css é uma sigla que significa **"Folhas de Estilo em Cascata"**, e possui 3 formas de implementação.
+Linguagem para estilização de páginas web.
+
+Css é uma sigla que significa **"Folhas de Estilo em Cascata"**, e possui 3 formas de implementação.
 
 ---
 
