@@ -1,0 +1,79 @@
+/* Neste arquivo, faremos TODAS as REGRAS
+CSS necessárias para a formatação do site. */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/fundo01.jpg)
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+
+    /* Desafio: aplique as seguintes propriedades:
+- borda em todos os lados na cor que quiser
+- sombra (na cor que quiser) no bloco virada pra dentro
+- coloque o texto no meio
+- letras maisuculas */
+
+    border: solid 2px lightseagreen;
+    box-shadow: inset lightseagreen 0px 0px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-left: dashed 3px;
+    border-right: dashed 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block; /* conver o block em inline */
+}
+
+#container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    box-shadow: black 0px 0px 10px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+
+
+/* Grupo Seletores */
+
+h3, p, figcaption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* FIM */
+
+h3 {
+    padding-left: 10px;
+    padding: 5px;
+    background: linear-gradient( lightblue, lightseagreen);
+}
+
+.destaque {
+    background-color: black;
+    padding: 3px;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Reset */
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+/* TAG responsavel por tornar Responsiva todas as Imagens */
+img {max-width: 100%;}
