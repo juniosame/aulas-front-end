@@ -77,3 +77,7 @@ figure {
 
 /* TAG responsavel por tornar Responsiva todas as Imagens */
 img {max-width: 100%;}
+
+/* Seletor descendente */
+
+p > a {color: red;}
