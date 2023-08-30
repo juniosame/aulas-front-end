@@ -1,12 +1,18 @@
 /* Neste arquivo, faremos TODAS as REGRAS
 CSS necessárias para a formatação do site. */
 
+@import url(https://fonts.google.com/specimen/Goldman);
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../imagens/fundo01.jpg)
+    background-image: url(../imagens/fundo01.jpg);
+    background-attachment: fixed;
 }
 
 h1 {
+    animation-name: caindo;
+    animation-duration: 7s;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     background-color: black;
@@ -33,7 +39,8 @@ h2 {
     border-right: dashed 3px;
     padding-left: 10px;
     padding-right: 10px;
-    display: inline-block; /* conver o block em inline */
+    display: inline-block;
+    /* conver o block em inline */
 }
 
 #container {
@@ -50,15 +57,18 @@ h2 {
 
 /* Grupo Seletores */
 
-h3, p, figcaption {
+h3,
+p,
+figcaption {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 /* FIM */
 
 h3 {
     padding-left: 10px;
     padding: 5px;
-    background: linear-gradient( lightblue, lightseagreen);
+    background: linear-gradient(lightblue, lightseagreen);
 }
 
 .destaque {
@@ -76,8 +86,107 @@ figure {
 }
 
 /* TAG responsavel por tornar Responsiva todas as Imagens */
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+}
 
 /* Seletor descendente */
 
-p a {color: red;}
+p a {
+    color: red;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: square;
+    /* Marcador */
+    list-style-image: url(../imagens/fundo03.gif);
+    line-height: 30px;
+    /* Espaçamento de linha */
+}
+
+/* Seletor PSEUDO-ELEMENTO (usa 2x o dois pontos :: */
+
+li::marker {
+    content: "💠 ";
+}
+
+/* Regras para o menu */
+nav {
+    text-align: center;
+}
+
+/* Regra para o estado inicial do link */
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Alterando o Box Model fazendo com que padding e border não de B.O nas dimensões finais do elemento!*/
+}
+
+/* Seletor pseudo-classe :first-child */
+nav a:first-child {
+    border-top-left-radius: 15px;
+
+}
+
+/* Seletor pseudo-classe :last-child */
+nav a:last-child {
+    border-top-right-radius: 15px;
+}
+
+/* Regra para o estado do link acionado Pseudo-Classe :hover */
+
+nav a:hover,
+nav a:focus {
+    background-color: seagreen;
+    color: black;
+}
+
+
+/* Cor aplicada na pagina selecionada */
+.link-ativo {
+    background-color: lightseagreen;
+    color: black;
+}
+
+/*  */
+
+figure img {
+    filter: grayscale();
+    transition: 0.5s;
+    /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
+    transform: scale(0.8);
+
+
+}
+
+figure img:hover {
+    filter: none;
+    /* clip-path: polygon(0 0, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%); */
+    transform: scale(1);
+}
+
+/* Regras de Animação */
+
+@keyframes caindo {
+
+    /* Como começa: */
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    /*  Como termina: */
+    to {
+        transform: translateY(0);
+    }
+}
