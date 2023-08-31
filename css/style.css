@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 /* Neste arquivo, faremos TODAS as REGRAS
 CSS necessárias para a formatação do site. */
 
-@import url(https://fonts.google.com/specimen/Goldman);
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +14,7 @@ h1 {
     animation-name: caindo;
     animation-duration: 7s;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Goldman', cursive;
     color: rgb(255, 255, 255);
     background-color: black;
     padding: 10px;
@@ -46,6 +47,9 @@ h2 {
 #container {
     background-color: white;
     width: 80%;
+    /*  VALORES PARA LIMITES MAXIMO E MINIMO DA PAGINA */
+    max-width: 800px;
+    min-height: 500px;
     margin: auto;
     text-align: auto;
     box-shadow: black 0px 0px 10px;
@@ -190,3 +194,12 @@ figure img:hover {
         transform: translateY(0);
     }
 }
+
+/*  Pseudo-Classe child:
+:first-child
+:last-child
+:nth-child() */
+
+ul li:first-child {color: red;}
+li:last-child {color: blue;}
+li:nth-child(3) {color: green};
