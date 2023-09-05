@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Alterando o Box model para TODOS os elementos da página (por isso usamos o seletor asterisco) */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI';
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+
+        img {
+            max-width: 100%;
+        }
+
+        article {
+            padding: 8px;
+            border: solid 1px;
+            width: 30%;
+        }
+
+        /* Flex Container */
+        .cards {
+            display: flex;
+
+            /* Atenção ao usar direções diferentes do Flex pois os eixos (horizontal/vertical) vão mudar o comportamento das propriedades abaixo. O valor padrão é row (linha/horinzontal) */
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: 900px;
+            margin: auto;
+            /* gap: 12px; */
+            background-color: aquamarine;
+        }
+
+        article:first-child {
+            background: yellow;
+        }
+
+        article:nth-child(2) {
+            background: pink;
+        }
+
+        article:last-child {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <hr>
+    <p>Flexbox é um mecanismo CSS que permite aplicar facilmente recursos de alinhamento, espaçamento e distribuição de
+        elementos no HTML. Muito útiç ma elaboração de layouts.</p>
+
+    <div class="cards">
+        <article>
+            <img src="imagens/mini-apple.jpg" alt="">
+            <h2>Apple</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptates!</p>
+        </article>
+
+        <article>
+            <img src="imagens/mini-ibm.jpg" alt="">
+            <h2>IBM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cum?</p>
+        </article>
+
+        <article>
+            <img src="imagens/mini-microsoft.jpg" alt="">
+            <h2>Microsoft</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, nostrum.</p>
+        </article>
+    </div>
+</body>
+
+</html>
