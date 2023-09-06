@@ -1,10 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Responsivo</title>
+
+    <style>
+        /* Regras de Uso Geral */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* RESET */
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ///////////////////////////// */
+
+        /* REFORMATAÇÃO DEPOIS DO RESET */
+        p {
+            padding: 5px 0px;
+        }
+
+        /* 5px pra cima 0px pra baixo */
+
+        h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            background-color: rgba(0, 255, 255, 0.5);
+        }
+
+        article {
+            padding: 8px;
+        }
+
+        #colunaA {
+            background-color: cornflowerblue;
+        }
+
+        #colunaB {
+            background-color: crimson;
+        }
+
+        #colunaC {
+            background-color: chartreuse;
+        }
+
+        footer {
+            background-color: grey;
+            height: 100px;
+        }
+
+        /* GERAL */
+        body {
+            font-family: Verdana;
+            background-color: #00d9ff;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.438);
+            box-shadow: 2px 2px 10px black;
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+
+        }
+
+        /* Regras Condicionais (Media Queries) 520px */
+
+        @media screen and (min-width: 520px) {
+            header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            h1 {
+                width: 40%;
+            }
+
+            nav {
+                width: 60%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+        }
+
+        /* Regras Condicionais (Media Queries) 720px */
+
+        @media screen and (min-width: 720px) {
+            main {
+                display: flex;
+                /* flex-wrap quando habilitado faz com que os elementos sejam "quebrados" para a linha de baixo caso não haja espaço. */
+                flex-wrap: wrap;
+            }
+
+            #colunaA {
+                width: 60%;
+            }
+
+            #colunaB {
+                width: 40%;
+            }
+
+            #colunaC {
+                width: 100%;
+            }
+        }
+
+
+        /* - Crie uma nova media query (tamanho ao seu critério), e coloque nelas regras conforme abaixo:
+        - Fazer o site parar de "esticar/crescer nas laterais"
+        - Deixar o site centralizado na página
+        - Aumentar a altura do cabeçalho
+        - Colunas devem ter a mesma largura e um espaço pequeno entre elas. */
+
+
+
+        /* Regras Condicionais (Media Queries) 1080px */
+
+        @media screen and (min-width: 1000px) {
+            .container {
+                max-width: 1000px;
+                margin: auto;
+            }
+            header {
+                height: 100px;
+            }
+
+            /* Desative o flex-wrap se você precisa que realmente as colunas se mantenham lado a lado */
+            main {
+                flex-wrap: nowrap;
+                justify-content: space-between;
+            }
+
+            #colunaA, #colunaB, #colunaC { width: 33%;}
+        }
+    </style>
 </head>
 
 <body>
@@ -13,12 +156,12 @@
         <header>
             <h1>Exemplo</h1>
             <nav>
-                <a href="#">Link 1</a>
+                <a href="">Link 1</a>
                 <a href="">Link 2</a>
                 <a href="">Link 3</a>
             </nav>
         </header>
-
+        <!-- ////////////////////////////////////////////// -->
         <main>
             <article id="colunaA">
                 <h2>Coluna A</h2>
@@ -39,7 +182,7 @@
                     consequuntur libero.</p>
             </article>
         </main>
-
+        <!-- ////////////////////////////////////////////// -->
         <footer>
             <h2>Rodapé</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sit similique sunt? Doloribus, dignissimos
